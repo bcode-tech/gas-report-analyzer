@@ -1,0 +1,16 @@
+@keyframes drophere {
+    0% {
+        transform: rotate(180deg) translateY(-5px);
+    }
+    50% {
+        transform: rotate(180deg) translateY(20px);
+    }
+    100% {
+        transform: rotate(180deg) translateY(-5px);
+    }
+}
+
+.animated {
+    transform-origin: 320px 370px;
+    animation: infinite ease drophere 1s;
+}
